@@ -1,9 +1,28 @@
 .primeira-lineup {
     width: 940px;
     margin: 0 auto;
+    text-align: center;
 }
 
 .primeira-lineup h2 {
+    display: flex;
+}
+
+.primeira-lineup ul {
     display: inline-block;
-    font-size: ;
+    padding: 15px;
+    text-align: center;
+}
+
+.primeira-lineup ul li {
+    font-family: 'Anton';
+    font-style: italic;
+    text-transform: uppercase;
+    font-size: 80px;
+    padding: 25px;
+    text-shadow: 
+        -4px -4px 0px #FFF, 
+        -4px 4px 0px #FFF,                    
+        4px -4px 0px #FFF,                  
+        4px 0px 0px #FFF;
 }
