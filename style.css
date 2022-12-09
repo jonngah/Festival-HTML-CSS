@@ -42,10 +42,9 @@ body {
 
 .bot-nav-cabecalho:last-child {
     background-color: #d00000;
-    color: white;
     padding: 15px;
     border-radius: 25px;
-    box-shadow: 3px 3px black;
+    box-shadow: 3px 3px black, -1px 3px black;
     transition: 200ms box-shadow;
 }
 
